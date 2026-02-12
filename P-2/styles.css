@@ -1,0 +1,53 @@
+:root{
+    --primary: #1a3a5f;
+    --accent:#00b4d8;
+    --text:#333;
+    --green: #40a959;
+}
+body{
+    color:var(--text);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0;
+    padding:20px;
+}
+header{
+    border-bottom: 2px solid var(--green);
+    margin-bottom: 25px;
+    padding-bottom:20px;
+}
+footer{
+    border-top: 2px solid var(--green);
+    margin-top: 25px;
+    padding-top:20px;
+}
+
+/* Media Queries */
+@media (max-width:768px){
+    #expertise ul{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:10px;
+        padding: 0;
+        list-style: none;
+    }
+}
+@media (max-width:480px){
+    #expertise ul{
+        grid-template-columns: 1fr 1fr;
+    }
+    article{box-shadow: none; border: 1px solid #dea}
+}
+
+/* Add these styles to support the JS toggle */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+body.dark-mode article {
+    background-color: #2d2d2d;
+    color: white;
+}

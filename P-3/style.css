@@ -1,0 +1,46 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for Header and Footer */
+header,
+footer {
+    background-color: lightcoral;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+/* Styling for Buttons */
+button {
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+/* Styling for Textarea and Input Fields */
+textarea,
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}

@@ -1,0 +1,52 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header and Footer */
+header,
+footer {
+    text-align: center;
+    background-color: lightcoral;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Main Section */
+main {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+}
+
+/* Loading Text */
+#loading {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Table Cells */
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Table Header */
+th {
+    background-color: #f2f2f2;
+    color: black;
+}

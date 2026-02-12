@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Elements & Web Storage API</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script(1).js" defer></script> 
+</head>
+<body >
+    <header>
+        <h1>Semantic Elements, Media Queries, CSS3 and Web Storage API</h1>
+        <button id="theme-toggle" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Switch Theme</button>
+    </header>
+    <main>
+        <article class="w-full border-t-8 border-cyan-400 shadow-lg rounded p-4 mb-6">
+            <h2>CSE B</h2>
+            <p>Bachelor of Technology, SNIST</p>
+        </article>
+        <section id="summary">
+            <h3>Professional Summary</h3>
+            <p>An Eight semesters degree program</p>
+        </section>
+        <section id="expertise">
+            <h3>Core Expertise</h3>
+            <ul class="list-disc pl-5">
+                <li>C and Data Structures</li> <li>Python</li>
+                <li>Java</li>
+                <li>AI and ML</li>
+                <li>Fullstack - React</li>
+            </ul>
+        </section>
+        <aside class="storage-status">
+            <strong>Web Storage API Note:</strong>
+            <p id="storage-msg">Setting theme...</p>
+        </aside>
+    </main>
+    <footer>&copy; 2026 WT LAB - Semantic Elements</footer>
+</body>
+</html>
